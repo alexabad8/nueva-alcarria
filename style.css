@@ -1,0 +1,237 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo-y-anuncio{
+    margin: 2rem 0;
+}
+.fecha-y-busqueda{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2rem;
+}
+
+.fecha{
+    color: rgb(99, 58, 138);
+    margin-left: 1rem;
+}
+
+#custom-search-input {
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+    width: 75%;
+}
+
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color:rgb(80, 46, 112, 0.5);
+}
+
+.search-query:focus + button {
+    z-index: 3;   
+}
+.navegacion .nav-item:hover, .subnavegacion .nav-item:hover{
+    background-color:rgba(145, 114, 173, 0.418);
+    border-radius: 1em;
+    transform: scale(1.25);
+}
+.navegacion{
+    background-color:rgba(134, 106, 161, 0.175);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.subnavegacion{
+    font-size: small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navegacion .nav-item, .subnavegacion .nav-item{
+    display: inline-block;
+    margin:0 auto;
+    text-align: center;
+    transition: 0.3s;
+}
+.navegacion .navbar-nav, .subnavegacion .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.portada{
+    background-color:rgba(130, 94, 161, 0.726);
+    border-radius: .5em;
+}
+.region{
+    background-color:rgba(145, 114, 173, 0.418);
+    border-radius: .5em;
+}
+.texto-region{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2rem auto;
+    color: rgba(93, 44, 136, 0.822);
+    background-image: linear-gradient(to right, white, rgba(153, 118, 184, 0.459), white);;
+    padding: .5rem;
+    text-align: center;
+}
+.card{
+    border-radius: 0;
+    border: none;
+}
+.card-text{
+    color: rgb(104, 104, 104);
+}
+.anuncio-pequeño-1, .anuncio-pequeño-2, .anuncio-pequeño-3{
+    background-color:rgb(80, 46, 112, 0.5);
+    padding: 6rem 0;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 4rem;
+}
+.anuncio-pequeño-1:hover, .anuncio-pequeño-2:hover, .anuncio-pequeño-3:hover{
+    background-color:rgba(79, 40, 112, 0.911);
+    transition: 0.3s;
+}
+.anuncio-baner{
+    background-color:rgb(80, 46, 112, 0.5);
+    padding: 3rem 0;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+}
+.anuncio-baner:hover{
+    background-color:rgba(175, 131, 211, 0.911);
+    transition: 0.3s;
+}
+.noticia:hover{
+    background-image: linear-gradient(to bottom, rgba(166, 115, 211, 0.5) , white);;
+    color:rgb(61, 12, 104);
+    transition: 0.3s;
+}
+.page-footer{
+    background-color: rgba(95, 17, 167, 0.233);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list-unstyled a{
+    text-decoration: none;
+    color: rgba(45, 9, 77, 0.842);
+}
+.menu-movil-navbar{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgba(134, 106, 161, 0.175);
+}
+.menu-movil-navbar .nav-item:hover{
+    background-color:rgba(145, 114, 173, 0.418);
+    transition: 0.3s;
+}
+
+.menu-movil-navbar .nav-item a{
+    color: black;
+}
+
+.portada-movil{
+    background-color:rgba(145, 114, 173, 0.26);
+}
+
+.redaccion{
+    font-size: small;
+    color: rgb(122, 122, 122);
+}
+
+.navbar-toggler{
+    border: none;
+    background-color: rgba(145, 114, 173, 0.411);
+}
+
+.navbar-light .navbar-toggler-icon{
+background-image: none;
+margin-top: 10px;
+}
+
+.articulo{
+    text-decoration: none;
+    color:#212529;
+}
+.articulo:hover{
+    text-decoration: none;
+    color:rgb(61, 12, 104);
+    transition: 0.3s;
+}
+.noticia-extensa .card-title{
+    color:rgb(61, 12, 104);
+}
+.anuncio-articulo{
+    width: 100%;
+    margin: 0 1rem 1rem 1rem;
+}
+.anuncios-movil{
+    background-color:rgb(80, 46, 112, 0.5);
+    padding: 6rem 0;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 4rem;
+}
+.social-media a{
+    margin: 0 1rem;
+}
+.social-media i:hover{
+    color:rgba(81, 35, 121, 0.904);
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+/*Media Query*/
+
+/* If the screen size is 990px wide or less, hide the element */
+@media only screen and (max-width: 990px) {
+    .navegacion , .subnavegacion, .logo, .barra-busqueda{
+      display: none;
+    }
+  }
+
+/* If the screen size is 991px wide or more, hide the element */
+@media only screen and (min-width: 991px) {
+    .menu-movil{
+      display: none;
+    }
+  }
+
+  /* If the screen size is 575px wide or less, hide the element */
+@media only screen and (max-width: 575px) {
+    .anuncio-pequeño-2, .anuncio-pequeño-3{
+      display: none;
+    }
+  }
+
+   /* If the screen size is 767px wide or less, hide the element */
+@media only screen and (max-width: 767px) {
+    .anuncios-ordena{
+      display: none;
+    }
+  }
+
+  /* If the screen size is 767px wide or more, hide the element */
+@media only screen and (min-width: 768px) {
+    .anuncios-movil{
+      display: none;
+    }
+  }
