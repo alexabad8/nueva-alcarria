@@ -1,11 +1,8 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.logo-y-anuncio{
-    margin: 2rem 0;
-}
 .fecha-y-busqueda{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:century gothic;
     margin-top: 2rem;
 }
 
@@ -13,7 +10,11 @@ body{
     color: rgb(99, 58, 138);
     margin-left: 1rem;
 }
-
+.logo{
+    margin: 1rem auto;
+    justify-content: center;
+    text-align: center;
+}
 #custom-search-input {
     margin:0;
     margin-top: 10px;
@@ -53,18 +54,36 @@ body{
 .search-query:focus + button {
     z-index: 3;   
 }
+.banner{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.anuncios{
+    margin: 0 auto;
+    text-align: center;
+}
+.anuncio-pequeño-1, .anuncio-pequeño-2, .anuncio-pequeño-3,.anuncio-pequeño-4, .anuncio-pequeño-5{
+    margin: 1rem auto;
+}
+
 .navegacion .nav-item:hover, .subnavegacion .nav-item:hover{
     background-color:rgba(145, 114, 173, 0.418);
     border-radius: 1em;
     transform: scale(1.25);
 }
 .navegacion{
-    background-color:rgba(134, 106, 161, 0.175);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:century gothic;
+    margin:0 auto;
+    text-align: center;
+    justify-content: center;
 }
 .subnavegacion{
     font-size: small;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:century gothic;
+    margin:0 auto;
+    text-align: center;
+    justify-content: center;
 }
 .navegacion .nav-item, .subnavegacion .nav-item{
     display: inline-block;
@@ -86,62 +105,50 @@ body{
     border-radius: .5em;
 }
 .texto-region{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:century gothic;
     margin: 2rem auto;
-    color: rgba(93, 44, 136, 0.822);
+    color:rgba(72, 28, 110, 0.788);
     background-image: linear-gradient(to right, white, rgba(153, 118, 184, 0.459), white);;
     padding: .5rem;
     text-align: center;
 }
+.div-region{
+    margin: 0 auto;
+}
 .card{
     border-radius: 0;
     border: none;
+    margin:0 auto;
+    
 }
 .card-text{
     color: rgb(104, 104, 104);
 }
-.anuncio-pequeño-1, .anuncio-pequeño-2, .anuncio-pequeño-3{
-    background-color:rgb(80, 46, 112, 0.5);
-    padding: 6rem 0;
-    text-align: center;
-    color: whitesmoke;
-    margin-bottom: 4rem;
-}
-.anuncio-pequeño-1:hover, .anuncio-pequeño-2:hover, .anuncio-pequeño-3:hover{
-    background-color:rgba(79, 40, 112, 0.911);
-    transition: 0.3s;
-}
-.anuncio-baner{
-    background-color:rgb(80, 46, 112, 0.5);
-    padding: 3rem 0;
-    text-align: center;
-    color: whitesmoke;
-    margin-bottom: 2rem;
-}
-.anuncio-baner:hover{
-    background-color:rgba(175, 131, 211, 0.911);
-    transition: 0.3s;
-}
+
 .noticia:hover{
-    background-image: linear-gradient(to bottom, rgba(166, 115, 211, 0.5) , white);;
+    background-image: linear-gradient(to bottom, rgba(166, 115, 211, 0.35) , white);;
     color:rgb(61, 12, 104);
     transition: 0.3s;
 }
 .page-footer{
     background-color: rgba(95, 17, 167, 0.233);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:century gothic;
 }
 .list-unstyled a{
     text-decoration: none;
     color: rgba(45, 9, 77, 0.842);
 }
 .menu-movil-navbar{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:century gothic;
     background-color:rgba(134, 106, 161, 0.175);
 }
 .menu-movil-navbar .nav-item:hover{
     background-color:rgba(145, 114, 173, 0.418);
     transition: 0.3s;
+}
+.dropdown-menu{
+    font-family:century gothic;
+    background-color:rgba(134, 106, 161);
 }
 
 .menu-movil-navbar .nav-item a{
@@ -176,20 +183,13 @@ margin-top: 10px;
     color:rgb(61, 12, 104);
     transition: 0.3s;
 }
+.anuncios-movil{
+    margin: 1rem auto;
+}
 .noticia-extensa .card-title{
     color:rgb(61, 12, 104);
 }
-.anuncio-articulo{
-    width: 100%;
-    margin: 0 1rem 1rem 1rem;
-}
-.anuncios-movil{
-    background-color:rgb(80, 46, 112, 0.5);
-    padding: 6rem 0;
-    text-align: center;
-    color: whitesmoke;
-    margin-bottom: 4rem;
-}
+
 .social-media a{
     margin: 0 1rem;
 }
@@ -203,7 +203,7 @@ margin-top: 10px;
 
 /* If the screen size is 990px wide or less, hide the element */
 @media only screen and (max-width: 990px) {
-    .navegacion , .subnavegacion, .logo, .barra-busqueda{
+    .navegacion , .subnavegacion, .logo, .barra-busqueda, .banner{
       display: none;
     }
   }
@@ -224,7 +224,7 @@ margin-top: 10px;
 
    /* If the screen size is 767px wide or less, hide the element */
 @media only screen and (max-width: 767px) {
-    .anuncios-ordena{
+    .anuncios-ordena, .anuncio-pequeño-3{
       display: none;
     }
   }

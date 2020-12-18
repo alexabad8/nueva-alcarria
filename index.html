@@ -76,6 +76,21 @@
       <li class="nav-item">
         <a class="nav-link" href="region.html">Comarca Molina</a>
       </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sub Menú</a>
+        <div class="dropdown-menu">
+          <a class="nav-link" href="#">Restaurantes</a>
+          <a class="nav-link" href="#">Alojamientos</a>
+          <a class="nav-link" href="#">Agenda</a>
+          <a class="nav-link" href="#">Viajes</a>
+          <a class="nav-link" href="#">Salud y Belleza</a>
+          <a class="nav-link" href="#">Ciencia</a>
+          <a class="nav-link" href="#">Tecnología</a>
+          <a class="nav-link" href="#">Motor</a>
+          <a class="nav-link" href="#">Fotos</a>
+          <a class="nav-link" href="#">Hemeroteca</a>
+          <a class="nav-link" href="#">Videos</a>
+      </li>
     </ul>
     <!-- Links -->
 
@@ -89,44 +104,53 @@
 
 
       <!--Fecha y Barra de búsqueda-->
-        <div class="row fecha-y-busqueda">
-            <!--fecha-->
-            <div class="col-lg-4 col-md-12 col-sm-12"><!--fecha-->
-              <div class="fecha">
-                <script>
-                  var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-                  var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
-                  var f=new Date();
-                  document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-                  </script>
-              </div>
-              </div><!--fecha-->
+      <div class="row fecha-y-busqueda">
+        <!--fecha-->
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6 col-md-12 col-sm-12"><!--fecha-->
+          <div class="fecha">
+            <script>
+              var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+              var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+              var f=new Date();
+              document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+              </script>
+          </div>
+          </div><!--fecha-->
 
-              <div class="col-lg-5"></div>
+        <!--barra de búsqueda-->
+        <div id="custom-search-input" class="col-lg-4 barra-busqueda">
+            <div class="input-group">
+                <input type="text" class="search-query form-control" placeholder="Buscar">
+                <span class="input-group-btn">
+                    <button class="btn" type="button">
+                        <i class=" fas fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </div><!--barra de búsqueda-->
+        <div class="col-lg-1"></div>
+    </div><!--Fecha y Barra de búsqueda-->
 
-            <!--barra de búsqueda-->
-            <div id="custom-search-input" class="col-lg-3 barra-busqueda">
-                <div class="input-group">
-                    <input type="text" class="search-query form-control" placeholder="Buscar">
-                    <span class="input-group-btn">
-                        <button class="btn" type="button">
-                            <i class=" fas fa-search"></i>
-                        </button>
-                    </span>
-                </div>
-            </div><!--barra de búsqueda-->
-        </div><!--Fecha y Barra de búsqueda-->
+        <!--Logo-->
+        <div class="row logo">
+          <div class="col-lg-1"></div>
+            <div class="col-lg-10 logo"><img src="img/logo.png" alt="logo"></div>
+          <div class="col-lg-1"></div>
+        </div><!--Logo-->
 
-        <!--Logo y anuncio-->
-        <div class="row logo-y-anuncio">
-            <div class="col-lg-5 logo"><img src="img/logo.png" alt="logo"></div>
-            <div class="col-lg-7 col-sm-12"><p class="anuncio-baner">Anuncio</p></div>
-        </div><!--Logo y anuncio-->
+
+        <!--Anuncio banner-->
+        <div class="row anuncio">
+          <div class="col-lg-1"></div>
+        <div class="col-lg-10 col-sm-12 banner"><img src="img/728x90.png" alt="banner"></div>
+        <div class="col-lg-1"></div>
+        </div><!--Anuncio banner-->
+
 
         <!--Menú-->
-
         <div class="row navegacion">
-        <div class="col-12">
+        <div class="col-10">
           <nav class="navbar navbar-expand-lg navbar-light">
             
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -144,7 +168,7 @@
                     <a class="nav-link" href="region.html">Región</a>
                   </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="region.html">Sociedad y Cultura</a>
+                    <a class="nav-link" href="region.html">Cultura</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="region.html">Economía</a>
@@ -172,7 +196,7 @@
         
         <!--Sub menú-->
         <div class="row subnavegacion">
-          <div class="col-12">
+          <div class="col-10">
             <nav class="navbar navbar-expand-lg navbar-light">
               
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -190,7 +214,7 @@
                       <a class="nav-link" href="#">Viajes</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Salud y belleza</a>
+                      <a class="nav-link" href="#">Salud</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#">Ciencia</a>
@@ -200,9 +224,6 @@
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#">Motor</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Comarca Molina</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#">Fotos</a>
@@ -221,7 +242,7 @@
 
         <!--mega noticia-->
         <div class="row mega-noticia">
-        <div class="card col-12">
+        <div class="card col-lg-10 col-md-12">
             <img class="card-img-top" src="img/mega_corona.jpg" alt="Card image cap">
             <div class="card-body noticia">
               <h2 class="card-title">Medidas Navidad en Valencia: Sanidad gestiona la compra de congeladores para las vacunas del coronavirus</h2>
@@ -234,8 +255,8 @@
     <!--noticias-->
 
   <div class="row noticias">
-    
-    <div class="card col-lg-6 col-md-6 col-sm-12 noticia"> <!--noticia grande-->
+    <div class="col-lg 1"></div>
+    <div class="card col-lg-4 col-md-12 noticia"> <!--noticia grande-->
       <a class="articulo" href="articulo.html">
         <img class="card-img-top" src="img/mega_futbol.jpg" alt="Card image cap">
         <div class="card-body">
@@ -247,7 +268,7 @@
       </a>
       </div><!--noticia grande-->
 
-    <div class="card col-lg-3 col-md-3 col-sm-6"><!--noticia peque-->
+    <div class="card col-lg-3 col-md-6"><!--noticia peque-->
       <div class="noticia">
       <img class="card-img-top" src="img/mega_visitaguada.jpg" alt="Card image cap">
       <div class="card-body">
@@ -269,16 +290,18 @@
     </div><!--noticia peque-->
 
     <!--anuncios-->
-    <div class="col-lg-3 col-md-3 col-sm-6"><p class="anuncio-pequeño-1">Anuncio</p>
-      <p class="anuncio-pequeño-2">Anuncio</p>
-      <p class="anuncio-pequeño-3">Anuncio</p>
+    <div class="col-lg-3 col-md-6 anuncios">
+      <img class="anuncio-pequeño-1" src="img/300x250.png" alt="anuncio">
+      <img class="anuncio-pequeño-2" src="img/300x250.png" alt="anuncio">
+      <img class="anuncio-pequeño-3" src="img/300x250.png" alt="anuncio">
     </div><!--anuncios-->
-
+  <div class="col-lg 1"></div>
   </div><!--noticias-->
-      <!--noticias-->
+      
 
-      <div class="row noticias">
-        <div class="card col-lg-6 col-md-6 col-sm-12 noticia"> <!--noticia grande-->
+      <div class="row noticias"><!--noticias-->
+        <div class="col-lg 1"></div>
+        <div class="card col-lg-4 col-md-12 noticia"> <!--noticia grande-->
           <a class="articulo" href="articulo.html">
             <img class="card-img-top" src="img/mega_futbol.jpg" alt="Card image cap">
             <div class="card-body">
@@ -286,11 +309,11 @@
               <p class="card-text">La decisión no ha sido nada fácil para el internacional iraní, pero ha optado por la oferta que le ha llegado de un club catarí. Se trata de una propuesta, según confirma el portero, con unas espectaculares condiciones tanto para él, como para su familia en Irán.
               </p>
               <p class="redaccion">14/12/2020 Redacción</p>
-          </a>
             </div>
+          </a>
           </div><!--noticia grande-->
-          
-        <div class="card col-lg-3 col-md-3 col-sm-6"><!--noticia peque-->
+    
+        <div class="card col-lg-3 col-md-6"><!--noticia peque-->
           <div class="noticia">
           <img class="card-img-top" src="img/mega_visitaguada.jpg" alt="Card image cap">
           <div class="card-body">
@@ -298,9 +321,9 @@
             <p class="card-text">Alberto Rojo asegura que estará terminado a mediados de 2021.</p>
             <p class="redaccion">14/12/2020 Redacción</p>
           </div>
-          </div>
+        </div>
     
-          <div class="noticia">
+        <div class="noticia">
           <img class="card-img-top" src="img/mega_teatro.jpg" alt="teatro">
           <div class="card-body">
             <h4 class="card-title">Alberto Rojo está orgulloso de nuestros dramaturgos locales</h4>
@@ -308,14 +331,17 @@
             <p class="redaccion">14/12/2020 Redacción</p>
           </div>
         </div>
-  
+    
         </div><!--noticia peque-->
     
         <!--anuncios-->
-        <div class="col-lg-3 col-md-3 col-sm-6"><p class="anuncio-pequeño-1">Anuncio</p>
-          <p class="anuncio-pequeño-2">Anuncio</p>
-          <p class="anuncio-pequeño-3">Anuncio</p>
+        <div class="col-lg-3 col-md-6 anuncios">
+          <img class="anuncio-pequeño-1" src="img/300x250.png" alt="anuncio">
+          <img class="anuncio-pequeño-2" src="img/300x250.png" alt="anuncio">
+          <img class="anuncio-pequeño-3" src="img/300x250.png" alt="anuncio">
         </div><!--anuncios-->
+      <div class="col-lg 1"></div>
+      
     
       </div><!--noticias-->
 
