@@ -1,404 +1,494 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nueva alcarria</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link type="image/x-icon" rel="shortcut icon" href="img/favicon.jpg">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nueva alcarria</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+            integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link type="image/x-icon" rel="shortcut icon" href="img/favicon.jpg">
+    </head>
 
-<body>
-    <div class="container-fluid">
+    <body>
+        <div class="container-fluid">
 
-      <!--Menú móvil-->
-      <div class="row">
+            <!--Menú móvil-->
+            <div class="row">
+                <!--Navbar-->
+                <div class="col-12"></div>
+                <nav class="navbar navbar-light navbar-1 white menu-movil">
 
-        <!--Navbar-->
-        <div class="col-12"></div>
-  <nav class="navbar navbar-light navbar-1 white menu-movil">
-  
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" width="85%">
-      <!-- Collapse button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-      aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fas fa-ellipsis-h"></i></span></button>
-    </a>
-  
-  </div>
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-  
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto menu-movil-navbar">
-        <!--barra de búsqueda-->
-        <div id="custom-search-input" class="col-lg-3 col-sm-12">
-          <div class="input-group">
-              <input type="text" class="search-query form-control" placeholder="Buscar">
-              <span class="input-group-btn">
-                  <button class="btn" type="button">
-                      <i class=" fas fa-search"></i>
-                  </button>
-              </span>
-          </div>
-      </div><!--barra de búsqueda-->
-        <li class="nav-item active ">
-          <a class="nav-link portada-movil" href="index.html">Portada</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Local</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Provincia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Región</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Sociedad y Cultura</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Economía</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Deportes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Toros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Campo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Opinión</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="region.html">Comarca Molina</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sub Menú</a>
-          <div class="dropdown-menu">
-            <a class="nav-link" href="#">Restaurantes</a>
-            <a class="nav-link" href="#">Alojamientos</a>
-            <a class="nav-link" href="#">Agenda</a>
-            <a class="nav-link" href="#">Viajes</a>
-            <a class="nav-link" href="#">Salud y Belleza</a>
-            <a class="nav-link" href="#">Ciencia</a>
-            <a class="nav-link" href="#">Tecnología</a>
-            <a class="nav-link" href="#">Motor</a>
-            <a class="nav-link" href="#">Fotos</a>
-            <a class="nav-link" href="#">Hemeroteca</a>
-            <a class="nav-link" href="#">Videos</a>
-        </li>
-      </ul>
-      <!-- Links -->
-  
-    </div>
-    <!-- Collapsible content -->
-  
-  </nav>
-  <!--/.Navbar-->
-  </div>
-        <!--Menú móvil-->
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" width="85%">
+                        <!-- Collapse button -->
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent15"
+                            aria-controls="navbarSupportedContent15"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                                <i class="fas fa-ellipsis-h"></i></span></button>
+                    </a>
 
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
 
-  
-  
-        <!--Fecha y Barra de búsqueda-->
-        <div class="row fecha-y-busqueda">
-          <!--fecha-->
-          <div class="col-lg-1"></div>
-          <div class="col-lg-6 col-md-12 col-sm-12"><!--fecha-->
-            <div class="fecha">
-              <script>
-                var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-                var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
-                var f=new Date();
-                document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-                </script>
+                        <!-- Links -->
+                        <ul class="navbar-nav mr-auto menu-movil-navbar">
+                            <!--barra de búsqueda-->
+                            <div id="custom-search-input" class="col-lg-3 col-sm-12">
+                                <div class="input-group">
+                                    <input type="text" class="search-query form-control" placeholder="Buscar">
+                                    <span class="input-group-btn">
+                                        <button class="btn" type="button">
+                                            <i class=" fas fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <!--barra de búsqueda-->
+                            <li class="nav-item active ">
+                                <a class="nav-link portada-movil" href="index.html">Portada</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Local</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Provincia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Región</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Sociedad y Cultura</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Economía</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Deportes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Toros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Campo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Opinión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="region.html">Comarca Molina</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    data-toggle="dropdown"
+                                    href="#"
+                                    role="button"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">Sub Menú</a>
+                                <div class="dropdown-menu">
+                                    <a class="nav-link" href="#">Restaurantes</a>
+                                    <a class="nav-link" href="#">Alojamientos</a>
+                                    <a class="nav-link" href="#">Agenda</a>
+                                    <a class="nav-link" href="#">Viajes</a>
+                                    <a class="nav-link" href="#">Salud y Belleza</a>
+                                    <a class="nav-link" href="#">Ciencia</a>
+                                    <a class="nav-link" href="#">Tecnología</a>
+                                    <a class="nav-link" href="#">Motor</a>
+                                    <a class="nav-link" href="#">Fotos</a>
+                                    <a class="nav-link" href="#">Hemeroteca</a>
+                                    <a class="nav-link" href="#">Videos</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- Links -->
+
+                    </div>
+                    <!-- Collapsible content -->
+
+                </nav>
+                <!--/.Navbar-->
+
             </div>
-            </div><!--fecha-->
+            <!--Menú móvil-->
 
-  
-          <!--barra de búsqueda-->
-          <div id="custom-search-input" class="col-lg-4 barra-busqueda">
-              <div class="input-group">
-                  <input type="text" class="search-query form-control" placeholder="Buscar">
-                  <span class="input-group-btn">
-                      <button class="btn" type="button">
-                          <i class=" fas fa-search"></i>
-                      </button>
-                  </span>
-              </div>
-          </div><!--barra de búsqueda-->
-          <div class="col-lg-1"></div>
-      </div><!--Fecha y Barra de búsqueda-->
-
-  
-          <!--Logo-->
-          <div class="row logo">
-            <div class="col-lg-1"></div>
-              <div class="col-lg-10 logo"><img src="img/logo.png" alt="logo" ></div>
-            <div class="col-lg-1"></div>
-          </div><!--Logo-->
-  
-
-  
-          <!--Anuncio banner-->
-          <div class="row anuncio">
-            <div class="col-lg-1"></div>
-          <div class="col-lg-10 col-sm-12 banner"><img src="img/728x90.png" alt="banner"></div>
-          <div class="col-lg-1"></div>
-          </div><!--Anuncio banner-->
-  
-  
-        <!--Menú-->
-        <div class="row navegacion">
-          <div class="col-10">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active portada">
-                    <a class="nav-link" href="index.html">Portada <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="region.html">Local</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="region.html">Provincia</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="region.html">Región</a>
-                    </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="region.html">Cultura</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="region.html">Economía</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="region.html">Deportes</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="region.html">Toros</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="region.html">Campo</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="region.html">Opinión</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="region.html">Comarca Molina</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-          </div><!--Menú-->
-
-          
-          <!--Sub menú-->
-          <div class="row subnavegacion">
-            <div class="col-10">
-              <nav class="navbar navbar-expand-lg navbar-light">
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Restaurantes</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Alojamiento</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Agenda</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Viajes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Salud</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ciencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tecnología</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Motor</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Fotos</a>
-                    </li>
-                    <li class="nav-item">
-                       <a class="nav-link" href="#">Hemeroteca</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Videos</a>
-                    </li>
-                  </ul>
+            <!--Fecha y Barra de búsqueda-->
+            <div class="row fecha-y-busqueda">
+                <!--fecha-->
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!--fecha-->
+                    <div class="fecha">
+                        <script>
+                            var meses = new Array(
+                                "Enero",
+                                "Febrero",
+                                "Marzo",
+                                "Abril",
+                                "Mayo",
+                                "Junio",
+                                "Julio",
+                                "Agosto",
+                                "Septiembre",
+                                "Octubre",
+                                "Noviembre",
+                                "Diciembre"
+                            );
+                            var diasSemana = new Array(
+                                "Domingo",
+                                "Lunes",
+                                "Martes",
+                                "Miércoles",
+                                "Jueves",
+                                "Viernes",
+                                "Sábado"
+                            );
+                            var f = new Date();
+                            document.write(
+                                diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " " +
+                                "de " + f.getFullYear()
+                            );
+                        </script>
+                    </div>
                 </div>
-              </nav>
+                <!--fecha-->
+
+                <!--barra de búsqueda-->
+                <div id="custom-search-input" class="col-lg-4 barra-busqueda">
+                    <div class="input-group">
+                        <input type="text" class="search-query form-control" placeholder="Buscar">
+                        <span class="input-group-btn">
+                            <button class="btn" type="button">
+                                <i class=" fas fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <!--barra de búsqueda-->
+                <div class="col-lg-1"></div>
             </div>
-            </div><!--Sub menú-->
+            <!--Fecha y Barra de búsqueda-->
 
+            <!--Logo-->
+            <div class="row logo">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 logo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></div>
+                    <div class="col-lg-1"></div>
+                </div>
+                <!--Logo-->
 
-    <!--noticias-->
-  
-  <div class="row noticias">
+                <!--Anuncio banner-->
+                <div class="row anuncio">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10 col-sm-12 banner"><img src="img/728x90.png" alt="banner"></div>
+                    <div class="col-lg-1"></div>
+                </div>
+                <!--Anuncio banner-->
 
-    <div class="col-lg-1"></div>
+                <!--Menú-->
+                <div class="row navegacion">
+                    <div class="col-10">
+                        <nav class="navbar navbar-expand-lg navbar-light">
 
-    <div class="card col-lg-6 col-sm-12 noticia-extensa"> <!--noticia grande-->
-        <img class="card-img-top" src="img/mega_futbol.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Saeid: “Dejar Guadalajara es muy duro pero es un paso importante en mi carrera”</h4>
-          <p class="card-text">A las 19.00 horas de hoy martes el estadio de La Solana entrará en la historia al acoger un partido de la Copa del Rey y ante un equipo de Primera. Juan Antonio del Castillo, presidente del club anfitrión, el CD Marchamalo asegura que su directiva se ha desvivido para que todo salga a la perfección.
-            <br><br>
-            A unas horas del partido de Copa, ¿cómo se encuentra de ánimos el presidente?</strong><br>
-            Me encuentro muy eufórico y sobre todo con mucho trabajo. Todos queríamos Copa y ya la tenemos aquí.
-            <br><br>        
-            ¿Qué supone para el club este partido?</strong><br>
-            Es historia para nuestro club. Es un hito para un pueblo modesto y para un equipo modesto.
-            <br><br>
-            ¿Puede esto suponer un antes y un después para el club, en cuanto a la imagen o al aspecto económico?</strong><br>
-            A nivel de imagen sí. Ahora se nos ve un poco más y mucha gente ya está poniendo a Marchamalo en el mapa. Sin embargo, a nivel económico no va a suponer ninguna mejora. Dicen que la Copa es un premio deportivo y económico para el equipo de menor categoría, pero siempre que tenga las instalaciones preparadas. Tenemos un campo modesto y tenemos que invertir bastante como en la instalación de las gradas supletorias para que puedan entrar 500 personas. Hay que cambiar también los banquillos... tenemos la ayuda del Ayuntamiento que es muy importante y también la colaboración de algunas empresas. Lo que sí estamos viendo, por tanto, es que no vamos a ganar dinero, vamos a hacer unas mejoras en el campo, tendremos algo más de nombre, pero las arcas del club creo que no lo notarán, ni para bien ni para mal. Eso sí, la prima que hablamos para los jugadores y para el cuadro técnico, sí la vamos a poder pagar.
-            <br><br>
-            <strong>Se imaginaba que un partido de la Copa del Rey supusiera todo este lío para el club.</strong><br>
-            Jamás lo imaginé. Nos llaman incluso de la prensa nacional y eso te reconforta mucho. Todo esto supone mucho trabajo y la experiencia que estamos cogiendo la directiva es impresionante.
-            <br><br>
-            <strong>¿Cómo está viendo estos días a sus jugadores?</strong><br>
-            Desde el día del Móstoles están viviendo la fiesta de la Copa. La euforia no la puedes parar y podíamos tener cierto temor por ver cómo estaban en los partidos de liga previos a la Copa y ya se ha visto que están a tope. De todas formas aunque esto es una fiesta hay que recordar que nuestro objetivo se centra en la liga y meternos entre los seis primeros del grupo en la primera fase.
-            <br><br>
-          <p class="redaccion">14/12/2020 Redacción</p>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active portada">
+                                        <a class="nav-link" href="index.html">Portada
+                                            <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Local</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Provincia</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Región</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Cultura</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Economía</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Deportes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Toros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Campo</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Opinión</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="region.html">Comarca Molina</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!--Menú-->
+
+                <!--Sub menú-->
+                <div class="row subnavegacion">
+                    <div class="col-10">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Restaurantes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Alojamiento</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Agenda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Viajes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Salud</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ciencia</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tecnología</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Motor</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Fotos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Hemeroteca</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Videos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!--Sub menú-->
+
+                <!--noticias-->
+
+                <div class="row noticias">
+
+                    <div class="col-lg-1"></div>
+
+                    <div class="card col-lg-6 col-sm-12 noticia-extensa">
+                        <!--noticia grande-->
+                        <img class="card-img-top" src="img/mega_futbol.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Saeid: “Dejar Guadalajara es muy duro pero es un paso importante en mi carrera”</h4>
+                            <p class="card-text">A las 19.00 horas de hoy martes el estadio de La Solana
+                                entrará en la historia al acoger un partido de la Copa del Rey y ante un equipo
+                                de Primera. Juan Antonio del Castillo, presidente del club anfitrión, el CD
+                                Marchamalo asegura que su directiva se ha desvivido para que todo salga a la
+                                perfección.
+                                <br><br>
+                                A unas horas del partido de Copa, ¿cómo se encuentra de ánimos el presidente?</strong><br>
+                            Me encuentro muy eufórico y sobre todo con mucho trabajo. Todos queríamos Copa y
+                            ya la tenemos aquí.
+                            <br><br>
+                            ¿Qué supone para el club este partido?</strong><br>
+                        Es historia para nuestro club. Es un hito para un pueblo modesto y para un
+                        equipo modesto.
+                        <br><br>
+                        ¿Puede esto suponer un antes y un después para el club, en cuanto a la imagen o
+                        al aspecto económico?</strong><br>
+                    A nivel de imagen sí. Ahora se nos ve un poco más y mucha gente ya está poniendo
+                    a Marchamalo en el mapa. Sin embargo, a nivel económico no va a suponer ninguna
+                    mejora. Dicen que la Copa es un premio deportivo y económico para el equipo de
+                    menor categoría, pero siempre que tenga las instalaciones preparadas. Tenemos un
+                    campo modesto y tenemos que invertir bastante como en la instalación de las
+                    gradas supletorias para que puedan entrar 500 personas. Hay que cambiar también
+                    los banquillos... tenemos la ayuda del Ayuntamiento que es muy importante y
+                    también la colaboración de algunas empresas. Lo que sí estamos viendo, por
+                    tanto, es que no vamos a ganar dinero, vamos a hacer unas mejoras en el campo,
+                    tendremos algo más de nombre, pero las arcas del club creo que no lo notarán, ni
+                    para bien ni para mal. Eso sí, la prima que hablamos para los jugadores y para
+                    el cuadro técnico, sí la vamos a poder pagar.
+                    <br><br>
+                    <strong>Se imaginaba que un partido de la Copa del Rey supusiera todo este lío
+                        para el club.</strong><br>
+                    Jamás lo imaginé. Nos llaman incluso de la prensa nacional y eso te reconforta
+                    mucho. Todo esto supone mucho trabajo y la experiencia que estamos cogiendo la
+                    directiva es impresionante.
+                    <br><br>
+                    <strong>¿Cómo está viendo estos días a sus jugadores?</strong><br>
+                    Desde el día del Móstoles están viviendo la fiesta de la Copa. La euforia no la
+                    puedes parar y podíamos tener cierto temor por ver cómo estaban en los partidos
+                    de liga previos a la Copa y ya se ha visto que están a tope. De todas formas
+                    aunque esto es una fiesta hay que recordar que nuestro objetivo se centra en la
+                    liga y meternos entre los seis primeros del grupo en la primera fase.
+                    <br><br>
+                    <p class="redaccion">14/12/2020 Redacción</p>
+                </div>
+            </div>
+            <!--noticia grande-->
+
+            <!--anuncios-->
+            <div class="col-lg-3 anuncios">
+                <img class="anuncio-pequeño-1" src="img/300x250.png" alt="anuncio">
+                <img class="anuncio-pequeño-2" src="img/300x250.png" alt="anuncio">
+                <img class="anuncio-pequeño-3" src="img/300x250.png" alt="anuncio">
+                <img class="anuncio-pequeño-4" src="img/300x250.png" alt="anuncio">
+                <img class="anuncio-pequeño-5" src="img/300x250.png" alt="anuncio">
+            </div>
+            <!--anuncios-->
+
+            <div class="col-lg-1"></div>
         </div>
-      </div><!--noticia grande-->
-
-
-      <!--anuncios-->
-    <div class="col-lg-3 anuncios">
-      <img class="anuncio-pequeño-1" src="img/300x250.png" alt="anuncio">
-      <img class="anuncio-pequeño-2" src="img/300x250.png" alt="anuncio">
-      <img class="anuncio-pequeño-3" src="img/300x250.png" alt="anuncio">
-      <img class="anuncio-pequeño-4" src="img/300x250.png" alt="anuncio">
-      <img class="anuncio-pequeño-5" src="img/300x250.png" alt="anuncio">
-    </div><!--anuncios-->
-
-
-    <div class="col-lg-1"></div>
-    </div><!--noticias-->
-
-    
-    
-</div> <!--container-->
-
-<!-- Footer -->
-<footer class="page-footer font-small pt-4">
-
-  <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <h5 class="text-uppercase">Diseño web: Inweb © 2020</h5>
-        <p>Tiempo: 0.0149 seg., Memoria Usada: 0.92 MB</p>
-        <div class="social-media">
-            <!--Facebook-->
-            <a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
-            <!--Twitter-->
-            <a class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
-            <!--Instagram-->
-            <a class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
-            <!--Youtube-->
-            <a class="yt-ic mr-3" role="button"><i class="fab fa-lg fa-youtube"></i></a>
-            <!--Email-->
-            <a class="email-ic mr-3" role="button"><i class="far fa-lg fa-envelope"></i></a>
-            <!--WhatsApp-->
-            <a class="whatsapp-ic" role="button"><i class="fab fa-lg fa-whatsapp"></i></a>
-        </div>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Más Información</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Aviso Legal</a>
-          </li>
-          <li>
-            <a href="#!">Política de Privacidad</a>
-          </li>
-          <li>
-            <a href="#!">Política de Cookies</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Otros enlaces</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Sistemas Integrales Cualificados</a>
-          </li>
-          <li>
-            <a href="#!">Entrada Bloggers</a>
-          </li>
-          <li>
-            <a href="#!">Aviso Legal</a>
-          </li>
-          <li>
-            <a href="#!">Empleo Trabajando.es</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
+        <!--noticias-->
 
     </div>
-    <!-- Grid row -->
+    <!--container-->
 
-  </div>
-  <!-- Footer Links -->
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4">
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> Nueva Alcarria</a>
-  </div>
-  <!-- Copyright -->
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
 
-</footer>
-<!-- Footer -->
+            <!-- Grid row -->
+            <div class="row">
 
-    
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
 
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Diseño web: Inweb © 2020</h5>
+                    <p>Tiempo: 0.0149 seg., Memoria Usada: 0.92 MB</p>
+                    <div class="social-media">
+                        <!--Facebook-->
+                        <a class="fb-ic mr-3" role="button">
+                            <i class="fab fa-lg fa-facebook-f"></i>
+                        </a>
+                        <!--Twitter-->
+                        <a class="tw-ic mr-3" role="button">
+                            <i class="fab fa-lg fa-twitter"></i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic mr-3" role="button">
+                            <i class="fab fa-lg fa-instagram"></i>
+                        </a>
+                        <!--Youtube-->
+                        <a class="yt-ic mr-3" role="button">
+                            <i class="fab fa-lg fa-youtube"></i>
+                        </a>
+                        <!--Email-->
+                        <a class="email-ic mr-3" role="button">
+                            <i class="far fa-lg fa-envelope"></i>
+                        </a>
+                        <!--WhatsApp-->
+                        <a class="whatsapp-ic" role="button">
+                            <i class="fab fa-lg fa-whatsapp"></i>
+                        </a>
+                    </div>
 
+                </div>
+                <!-- Grid column -->
 
+                <hr class="clearfix w-100 d-md-none pb-3">
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Más Información</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Aviso Legal</a>
+                        </li>
+                        <li>
+                            <a href="#!">Política de Privacidad</a>
+                        </li>
+                        <li>
+                            <a href="#!">Política de Cookies</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Otros enlaces</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Sistemas Integrales Cualificados</a>
+                        </li>
+                        <li>
+                            <a href="#!">Entrada Bloggers</a>
+                        </li>
+                        <li>
+                            <a href="#!">Aviso Legal</a>
+                        </li>
+                        <li>
+                            <a href="#!">Empleo Trabajando.es</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/">
+                Nueva Alcarria</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>

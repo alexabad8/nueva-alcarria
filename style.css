@@ -1,23 +1,22 @@
-body{
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.fecha-y-busqueda{
-    font-family:century gothic;
+.fecha-y-busqueda {
+    font-family: century gothic;
     margin-top: 2rem;
 }
 
-.fecha{
-    color: rgb(99, 58, 138);
+.fecha {
+    color: rgb(51, 17, 83);
     margin-left: 1rem;
 }
-.logo{
+.logo {
     margin: 1rem auto;
     justify-content: center;
     text-align: center;
 }
 #custom-search-input {
-    margin:0;
-    margin-top: 10px;
+    margin: 10px 0 0;
     padding: 0;
     width: 75%;
 }
@@ -48,153 +47,173 @@ body{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    color:rgb(80, 46, 112, 0.5);
+    color: rgb(80, 46, 112, 0.5);
 }
 
 .search-query:focus + button {
-    z-index: 3;   
+    z-index: 3;
 }
-.banner{
+.banner {
     margin: 0 auto;
     justify-content: center;
     text-align: center;
 }
-.anuncios{
+.anuncios {
     margin: 0 auto;
     text-align: center;
 }
-.anuncio-pequeño-1, .anuncio-pequeño-2, .anuncio-pequeño-3,.anuncio-pequeño-4, .anuncio-pequeño-5{
+.anuncio-pequeño-1,
+.anuncio-pequeño-2,
+.anuncio-pequeño-3,
+.anuncio-pequeño-4,
+.anuncio-pequeño-5 {
     margin: 1rem auto;
 }
 
-.navegacion .nav-item:hover, .subnavegacion .nav-item:hover{
-    background-color:rgba(145, 114, 173, 0.418);
-    border-radius: 1em;
+.navegacion .nav-item:hover,
+.subnavegacion .nav-item:hover {
+    background-color: rgba(145, 114, 173, 0.418);
+    border-radius: 0.25em;
     transform: scale(1.25);
 }
-.navegacion{
-    font-family:century gothic;
-    margin:0 auto;
+.navegacion {
+    font-family: century gothic;
+    margin: 0 auto;
     text-align: center;
     justify-content: center;
 }
-.subnavegacion{
+.subnavegacion {
     font-size: small;
-    font-family:century gothic;
-    margin:0 auto;
+    font-family: century gothic;
+    margin: 0 auto;
     text-align: center;
     justify-content: center;
 }
-.navegacion .nav-item, .subnavegacion .nav-item{
+.navegacion .nav-item,
+.subnavegacion .nav-item {
     display: inline-block;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
     transition: 0.3s;
 }
-.navegacion .navbar-nav, .subnavegacion .navbar-nav{
+.navegacion .navbar-nav,
+.subnavegacion .navbar-nav {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-.portada{
-    background-color:rgba(130, 94, 161, 0.726);
-    border-radius: .5em;
+.portada {
+    background-color: rgba(130, 94, 161, 0.726);
+    border-radius: 0.5em;
 }
-.region{
-    background-color:rgba(145, 114, 173, 0.418);
-    border-radius: .5em;
+.region {
+    background-color: rgba(145, 114, 173, 0.418);
+    border-radius: 0.5em;
 }
-.texto-region{
-    font-family:century gothic;
+.texto-region {
+    font-family: century gothic;
     margin: 2rem auto;
-    color:rgba(72, 28, 110, 0.788);
-    background-image: linear-gradient(to right, white, rgba(153, 118, 184, 0.459), white);;
-    padding: .5rem;
+    color: rgba(72, 28, 110, 0.788);
+    background-image: linear-gradient(to right, white, rgba(153, 118, 184, 0.459), white);
+    padding: 0.5rem;
     text-align: center;
 }
-.div-region{
+.div-region {
     margin: 0 auto;
 }
-.card{
+.boton-seccion {
+    font-family: century gothic;
+    display: block;
+    position: relative;
+    top: 30px;
+    background-color: rgba(122, 80, 158, 0.5);
+    border: none;
+}
+.boton-seccion:hover {
+    background-color: rgba(60, 20, 95, 0.5);
+}
+.card {
     border-radius: 0;
     border: none;
-    margin:0 auto;
-    
+    margin: 0 auto;
 }
-.card-text{
+.card-text {
     color: rgb(104, 104, 104);
 }
 
-.noticia:hover{
-    background-image: linear-gradient(to bottom, rgba(166, 115, 211, 0.35) , white);;
-    color:rgb(61, 12, 104);
+.noticia:hover {
+    background-image: linear-gradient(to bottom, rgba(166, 115, 211, 0.35) , white);
+    color: rgb(61, 12, 104);
     transition: 0.3s;
 }
-.page-footer{
+.page-footer {
     background-color: rgba(95, 17, 167, 0.233);
-    font-family:century gothic;
+    font-family: century gothic;
 }
-.list-unstyled a{
+.list-unstyled a {
     text-decoration: none;
     color: rgba(45, 9, 77, 0.842);
 }
-.menu-movil-navbar{
-    font-family:century gothic;
-    background-color:rgba(134, 106, 161, 0.175);
+.menu-movil-navbar {
+    font-family: century gothic;
+    background-color: rgba(134, 106, 161, 0.175);
 }
-.menu-movil-navbar .nav-item:hover{
-    background-color:rgba(145, 114, 173, 0.418);
+.menu-movil-navbar .nav-item:hover {
+    background-color: rgba(145, 114, 173, 0.418);
     transition: 0.3s;
 }
-.dropdown-menu{
-    font-family:century gothic;
-    background-color:rgba(134, 106, 161);
+.dropdown-menu {
+    font-family: century gothic;
+    background-color: rgb(212, 196, 226);
 }
-
-.menu-movil-navbar .nav-item a{
+.dropdown-menu a:hover {
+    background-color: rgba(145, 114, 173, 0.418);
+    transition: 0.3s;
+}
+.menu-movil-navbar .nav-item a {
     color: black;
 }
 
-.portada-movil{
-    background-color:rgba(145, 114, 173, 0.26);
+.portada-movil {
+    background-color: rgba(145, 114, 173, 0.26);
 }
 
-.redaccion{
+.redaccion {
     font-size: small;
     color: rgb(122, 122, 122);
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
     background-color: rgba(145, 114, 173, 0.411);
 }
 
-.navbar-light .navbar-toggler-icon{
-background-image: none;
-margin-top: 10px;
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    margin-top: 10px;
 }
 
-.articulo{
+.articulo {
     text-decoration: none;
-    color:#212529;
+    color: #212529;
 }
-.articulo:hover{
+.articulo:hover {
     text-decoration: none;
-    color:rgb(61, 12, 104);
+    color: rgb(61, 12, 104);
     transition: 0.3s;
 }
-.anuncios-movil{
+.anuncios-movil {
     margin: 1rem auto;
 }
-.noticia-extensa .card-title{
-    color:rgb(61, 12, 104);
+.noticia-extensa .card-title {
+    color: rgb(61, 12, 104);
 }
 
-.social-media a{
+.social-media a {
     margin: 0 1rem;
 }
-.social-media i:hover{
-    color:rgba(81, 35, 121, 0.904);
+.social-media i:hover {
+    color: rgba(81, 35, 121, 0.904);
     transform: scale(1.5);
     transition: 0.3s;
 }
@@ -203,35 +222,41 @@ margin-top: 10px;
 
 /* If the screen size is 990px wide or less, hide the element */
 @media only screen and (max-width: 990px) {
-    .navegacion , .subnavegacion, .logo, .barra-busqueda, .banner{
-      display: none;
+    .banner,
+    .barra-busqueda,
+    .logo,
+    .navegacion,
+    .subnavegacion {
+        display: none;
     }
-  }
+}
 
 /* If the screen size is 991px wide or more, hide the element */
 @media only screen and (min-width: 991px) {
-    .menu-movil{
-      display: none;
+    .menu-movil {
+        display: none;
     }
-  }
+}
 
-  /* If the screen size is 575px wide or less, hide the element */
+/* If the screen size is 575px wide or less, hide the element */
 @media only screen and (max-width: 575px) {
-    .anuncio-pequeño-2, .anuncio-pequeño-3{
-      display: none;
+    .anuncio-pequeño-2,
+    .anuncio-pequeño-3 {
+        display: none;
     }
-  }
+}
 
-   /* If the screen size is 767px wide or less, hide the element */
+/* If the screen size is 767px wide or less, hide the element */
 @media only screen and (max-width: 767px) {
-    .anuncios-ordena, .anuncio-pequeño-3{
-      display: none;
+    .anuncio-pequeño-3,
+    .anuncios-ordena {
+        display: none;
     }
-  }
+}
 
-  /* If the screen size is 767px wide or more, hide the element */
+/* If the screen size is 767px wide or more, hide the element */
 @media only screen and (min-width: 768px) {
-    .anuncios-movil{
-      display: none;
+    .anuncios-movil {
+        display: none;
     }
-  }
+}
